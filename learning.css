@@ -1,0 +1,72 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+header {
+  background-color: blue;
+  color: #fff;
+  padding: 25px; align-items: center;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 3px; background-color:red; 
+  }
+nav ul li:hover {background-color: #333;
+   color: aqua; transform: rotate(360deg); transition: 2s;
+  font-weight: bold;}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px; 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none; font-size: large;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #333;
+}
+.container:hover {background-color: yellowgreen; color: aqua;}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+form{margin: 30px; padding: 20px; align-content: center;
+text-align: center; background-color: aquamarine; 
+ border-radius: 40px; border: solid black 2px;
+height: 330px; width: 300px;}
+
+button{background-color:green; color:white; 
+font-weight: bold;}
+
+button:hover {background-color: gray; color: black;
+transform:rotate(360deg); transition: 3s;}
+
+div {margin: 30px;}
+
+
+This is a simple layout with sections for about, 
+services, and contact. You can further customize 
+it based on your specific requirements and design
+ preferences.
